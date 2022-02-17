@@ -1,0 +1,9 @@
+{
+	"lod_version": {
+		"readable_format": "0.1-alpha",
+		"major": 0,
+		"minor": 1,
+		"patch": 0,
+		"tag": "alpha"
+	}
+}
