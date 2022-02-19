@@ -1,5 +1,5 @@
 {
-	"hash": "md5",
+	"kind": "md5",
 	"files": [
 		{
 			"path": "usr/bin/htop",
