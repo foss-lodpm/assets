@@ -6,7 +6,7 @@
 	"repository": "https://github.com/htop-dev/htop",
 	"homepage": "https://htop.dev",
 	"arch": "amd64",
-	"type": "util",
+	"kind": "util",
 	"installed_size": 320,
 	"tags": [
 		"benchmarking",
