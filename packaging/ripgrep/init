@@ -1,5 +1,3 @@
-# mkdir -p src
-
 curl -L https://github.com/BurntSushi/ripgrep/archive/refs/tags/13.0.0.tar.gz > ripgrep.tar.gz
 
 tar -xvf ripgrep.tar.gz --strip 1 -C src
