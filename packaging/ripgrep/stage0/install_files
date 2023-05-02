@@ -1,10 +1,10 @@
 # Moves/copies needed files under the program directory.
 
 # Program Binary
-install -D src/target/release/rg program/usr/bin/rg
+install_to_package src/target/release/rg /usr/bin/rg
 
 # Bash Completions
-install -D src/target/release/build/ripgrep-*/out/rg.bash program/usr/share/bash-completion/completions/rg.bash
+install_to_package src/target/release/build/ripgrep-*/out/rg.bash /usr/share/bash-completion/completions/rg.bash
 
 # Man Page
-install -D src/target/release/build/ripgrep-*/out/rg.1 program/usr/share/man/man1/rg.1.gz
+install_to_package src/target/release/build/ripgrep-*/out/rg.1 /usr/share/man/man1/rg.1.gz
