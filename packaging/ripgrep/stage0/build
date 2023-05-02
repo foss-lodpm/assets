@@ -1,0 +1,3 @@
+# Builds the program source.
+
+cargo build --release
