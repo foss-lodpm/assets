@@ -1,1 +1,1 @@
-install_to_package $SRC/sbs /usr/bin/sbs
+install_to_package sbs /usr/bin/sbs
