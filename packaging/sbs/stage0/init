@@ -1,0 +1,3 @@
+curl -L https://github.com/ozkanonur/sbs/archive/refs/tags/v1.0.0.tar.gz > sbs.tar.gz
+validate_checksum "sbs.tar.gz" "aa4da5b2315046fc2059599b19c530f08bb870e63ed17111a55991b1ae911367"
+tar -xvzf sbs.tar.gz --strip 1 -C $SRC
