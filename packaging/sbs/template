@@ -19,7 +19,11 @@
         "patch": 0
     },
     "license": "MIT",
-    "dependencies": {
+    "mandatory_dependencies": {
+		"build": [],
+		"runtime": []
+	},
+    "suggested_dependencies": {
 		"build": [],
 		"runtime": []
 	}

@@ -21,7 +21,11 @@
         "tag": "4+b2"
     },
     "license": "MIT",
-    "dependencies": {
+    "mandatory_dependencies": {
+		"build": [],
+		"runtime": []
+	},
+    "suggested_dependencies": {
 		"build": [],
 		"runtime": []
 	}
