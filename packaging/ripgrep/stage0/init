@@ -1,7 +1,0 @@
-# Initializes the needed program dependencies(e.g downloading program source code) and validates(checksum comparison) them.
-
-curl -L https://github.com/BurntSushi/ripgrep/archive/refs/tags/13.0.0.tar.gz > ripgrep.tar.gz
-
-validate_checksum "ripgrep.tar.gz" "0fb17aaf285b3eee8ddab17b833af1e190d73de317ff9648751ab0660d763ed2"
-
-tar -xvf ripgrep.tar.gz --strip 1 -C $SRC
